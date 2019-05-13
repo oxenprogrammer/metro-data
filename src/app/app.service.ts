@@ -8,7 +8,7 @@ import { tap } from 'rxjs/operators';
 
 
 @Injectable()
-export class ServiceNameService {
+export class AppService {
 
   url = environment.serverURL;
 
