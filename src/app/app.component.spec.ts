@@ -28,6 +28,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
+  it('should create the service', () => {
+    expect(AppService).toBeTruthy();
+  });
+
   // it(`should have as title 'metro-data'`, () => {
   //   const fixture = TestBed.createComponent(AppComponent);
   //   const app = fixture.debugElement.componentInstance;
